@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="dise.css">
+    <meta charset="UTF-8">
+  </head>
+
+</html>
+<body>
+<!-- creacion de barra de navegacion superior  -->  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a class="active" href="pagweb.html"><i class="fa fa-fw fa-home"></i> Registrarse</a>
+  <a href="disp.html"><i class="fa fa-fw fa-search"></i> Disponibilidad</a>
+  <a href="https://uninpahu.edu.co/?gad_source=1&gclid=Cj0KCQjwiYOxBhC5ARIsAIvdH51UgYqIvcQdumJIYyU_hXE3zyHHHCaMPMT1XAj8rmXmOOm4bivOYJAaAqfBEALw_wcB"><i class="fa fa-fw fa-university"></i> Universidad</a>
+  <a href="buy.html"><i class="fa fa-fw fa-dollar"></i> Pago</a>
+  <a href="insesi.html"><i class="fa fa-fw fa-user"></i> Iniciar sesion</a>
+  
+</div>
+
+<!-- creacion de formulario de registro -->
+<!-- creacion de obtencion de datos del registro usando el metodo post -->
+<form action="form.php" method="post">
+
+  
+  <div class="container">
+    <h1 style="font-size: 3rem; font-weight: bold;"><center>Uninpahu Park Xperience</center></h1>
+    <h1>Registro</h1>
+    <p>Por favor ingrese los siguientes datos para el registro.</p>
+    <hr>
+
+    <label for="cedula"><b>Cedula</b></label>
+    <input type="number" placeholder="Ingrese la cedula" name="cedula" id="cedula" required>
+    <br>
+
+    <label for="psw"><b>Cree Contraseña</b></label>
+    <input type="password" placeholder="Contraseña" name="psw" id="psw" required>
+    <br>
+
+    <label for="psw-repeat"><b>Repita Contraseña</b></label>
+    <input type="password" placeholder=" Contraseña" name="psw-repeat" id="psw-repeat" required>
+    <br>
+
+    <label for="nombre"><b>Digite  nombre</b></label>
+    <input type="text" placeholder=" Nombre" name="nombre" id="nombre" required>
+    <br>
+
+    <label for="apellido"><b>Digite apellido</b></label>
+    <input type="text" placeholder=" Nombre" name="apellido" id="apellido" required>
+    <br>
+
+    <label for="celular"><b>Digite numero de celular</b></label>
+    <input type="tel" placeholder=" celular" name="celular" id="celular" required>
+    <br>
+
+    <label for="carnet"><b>Digite codigo de carnet</b></label>
+    <input type="number" placeholder=" codigo" name="carnet" id="carnet" required>
+    <br>
+
+
+    <button type="submit" class="registerbtn">Registrarse</button>
+  </div>
+</form>
+
+<!-- Formulario de inicio de sesion -->
+
+    
+</body>
+</html>

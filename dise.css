@@ -1,0 +1,97 @@
+* {box-sizing: border-box}
+/*diseño de la barra de navegacion*/
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+
+.navbar a {
+  float: left;
+  text-align: center;
+  width: 25%;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+  width: 25%;
+}
+
+/* enlace de la barra de navegacion */
+.active {
+  
+  width: 25%;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/*diseño del registro*/
+form {
+  width: 100%;
+  padding: 16px;
+  background-color: #fa9806;
+}
+
+form input[type=number],
+form input[type=text],
+form input[type=tel],
+form input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+}
+
+form input[type=number]:focus,
+form input[type=text]:focus,
+form input[type=tel]:focus,
+form input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+form button {
+  background-color: #000000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+form button:hover {
+  opacity:1;
+}
+
+form .signin {
+  text-align: center;
+}
+
+form .signin p {
+  font-size: 14px;
+  color: #666;
+}
+
+form .signin a {
+  color: #04AA6D;
+  text-decoration: none;
+}
+/*diseño del registro hasta aca */
+
+

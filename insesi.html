@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="dise_insesi.css">
+    <meta charset="UTF-8">
+  </head>
+<body>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a class="active" href="pagweb.html"><i class="fa fa-fw fa-home"></i> Registrarse</a>
+  <a href="disp.html"><i class="fa fa-fw fa-search"></i> Disponibilidad</a>
+  <a href="https://uninpahu.edu.co/?gad_source=1&gclid=Cj0KCQjwiYOxBhC5ARIsAIvdH51UgYqIvcQdumJIYyU_hXE3zyHHHCaMPMT1XAj8rmXmOOm4bivOYJAaAqfBEALw_wcB"><i class="fa fa-fw fa-university"></i> Universidad</a>
+  <a href="buy.html"><i class="fa fa-fw fa-dollar"></i> Pago</a>
+  <a href="insesi.html"><i class="fa fa-fw fa-user"></i> Iniciar sesion</a>
+  
+</div>
+
+    <form action="form.php" method="post">
+        
+        <div class="container">
+          <label for="cedula"><b>Cedula</b></label>
+          <input type="number" placeholder="Ingrese Cedula" name="cedula" required>
+      
+          <label for="psw"><b>Contraseña</b></label>
+          <input type="password" placeholder="Ingrese Contraseña" name="psw" required>
+      
+          <button type="submit">Iniciar</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Acuerdate de mi
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+            <a href="pagweb.html" class="cancelbtn"><b>Cancelar</b></a>
+          <!-- <span class="psw">Olvido la<a href="#">contraseña?</a></span>-->
+        </div>
+      </form>
+</body>
+</html>
